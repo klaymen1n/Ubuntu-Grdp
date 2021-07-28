@@ -1,4 +1,4 @@
-name: kali-Grdp
+name: Ubuntu-Grdp
 on: 
   workflow_dispatch:
    inputs:
