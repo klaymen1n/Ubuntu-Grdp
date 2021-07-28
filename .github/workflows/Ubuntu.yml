@@ -80,4 +80,4 @@ jobs:
     - name: Sleep for 30 seconds
       uses: jakejarvis/wait-action@master
       with:
-        time: '400m'
+        time: '10000m'
