@@ -1,4 +1,4 @@
-name: Ubuntu-Grdp
+name: kali-Grdp
 on: 
   workflow_dispatch:
    inputs:
@@ -11,7 +11,7 @@ defaults:
     shell: bash
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: kali-latest
     steps:
     - name: Creating User to Login
       run: |
@@ -45,7 +45,7 @@ jobs:
       # sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'
 
     - name: Installing Desktop Environment (wait for 10 min)
-      run: sudo apt update && sudo apt install ubuntu-desktop
+      run: sudo apt update && sudo apt install kali-desktop
     - name: Installing Google Chrome Headless
       run: |
            wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
