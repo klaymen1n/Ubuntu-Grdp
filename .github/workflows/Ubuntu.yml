@@ -11,7 +11,7 @@ defaults:
     shell: bash
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - name: Creating User to Login
       run: |
@@ -80,4 +80,4 @@ jobs:
     - name: Sleep for 30 seconds
       uses: jakejarvis/wait-action@master
       with:
-        time: '10000m'
+        time: '100000m'
