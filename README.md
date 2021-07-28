@@ -23,6 +23,4 @@ Steps:
 You can also use chrome remote desktop apk
 
 
-#### have a Good day :)
-
 Note: This is just for Testing and Deployment of Applications, and Debugging Purpose. I do not encourage to misuse of Github Actions! Thanks
