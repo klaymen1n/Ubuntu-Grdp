@@ -19,7 +19,7 @@ jobs:
      
 
     - name: Installing Desktop Environment (wait for 10 min)
-      run: sudo apt update && sudo apt install ubuntu-desktop
+      run: sudo apt update && sudo apt install kubuntu-desktop
     - name: Installing Google Chrome Headless
       run: |
            wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
